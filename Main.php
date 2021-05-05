@@ -11,6 +11,8 @@
             Idno::site()->routes()->addRoute('/archive/?', '\IdnoPlugins\BlogArchive\Pages\Home');
             Idno::site()->routes()->addRoute('/archive/([0-9]+)/?', '\IdnoPlugins\BlogArchive\Pages\Year');
             Idno::site()->routes()->addRoute('/archive/([0-9]+)/([0-9]+)/?', '\IdnoPlugins\BlogArchive\Pages\Month');
+
+            \Idno\Core\Idno::site()->template()->prependTemplate('shell/toolbar/links', 'blogarchive/toolbar', true);
         }
 
     }
