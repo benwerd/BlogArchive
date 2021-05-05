@@ -16,7 +16,7 @@
             / <?php echo date('F j, Y', $item->created) ?>
         </h3>
         <p>
-            <?php echo $item->getShortDescription(50); ?>
+            <?php echo $item->getShortDescription(50); ?> ...
         </p>
 <?php
         }
