@@ -2,7 +2,6 @@
 
 namespace IdnoPlugins\BlogArchive\Pages;
 
-use Idno\Common\Entity;
 use Idno\Core\Idno;
 
 class SitemapYear extends \Idno\Common\Page
