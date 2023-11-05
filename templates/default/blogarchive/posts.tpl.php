@@ -13,10 +13,10 @@
 ?>
         <h3>
             <a href="<?php echo $item->getDisplayURL(); ?>"><?php echo $item->getTitle(); ?></a>
-            / <?php echo date('F j, Y', $item->created) ?>
         </h3>
         <p>
-            <?php echo $item->getShortDescription(50); ?> ...
+            <?php echo $item->getShortDescription(50); ?> ...<br>
+          <small><?php echo date('F j, Y', $item->created); ?></small>
         </p>
 <?php
         }
